@@ -46,6 +46,58 @@ img {
 }
 
 @media(max-width: 760px){
+  .header {
+    grid-template-columns: auto;
+  }
+
+  .header nav a {
+    font-size: 1em;
+  }
+
+  .header li + li {
+    margin-left: 10px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .sidenav {
+    position: relative;
+    padding: 0 30px;
+    overflow-x: auto;
+  }
+
+  @keyframes seta {
+    from{
+      right:30px;
+    }
+    to{
+      right:20px;
+    }
+  }
+
+  .sidenav::after{
+    content: '→';
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0,0,0,.3);
+    animation: seta .5s ease-in 0s infinite alternate;
+  }
+
+  .sidenav ul {
+    display: flex;
+  }
+
+  .sidenav ul li {
+    flex: 1 0 60px;
+  }
+
+  .sidenav ul li a {
+    margin: 30px 30px 30px 0;
+  }
+
   .estrutura {
     grid-template-columns: 100%;
     grid-template-areas :
