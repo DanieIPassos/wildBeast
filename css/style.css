@@ -35,6 +35,28 @@ img {
   ;
 }
 
+@media(max-width: 1220px){
+  .strutura {
+    grid-template-areas: 
+    "header header header"
+    "sidenav content content"
+    "sidenav anuncios anuncios"
+    "footer footer footer";
+  }
+}
+
+@media(max-width: 760px){
+  .estrutura {
+    grid-template-columns: 100%;
+    grid-template-areas :
+    "header"
+    "sidenav"
+    "content"
+    "anuncios"
+    "footer";
+  }
+}
+
 .header{
   grid-area: header;
   background: linear-gradient(135deg,#896eb1, #B07DFB);
@@ -181,6 +203,41 @@ p {
   padding: 10px auto;
   position: relative;
   top: 2px;
+}
+
+
+.destaque {
+  font-size: 0.875em;
+  color: #B07DFB;
+  max-width: 16em;
+}
+
+.citacao, .atributos {
+  padding: 30px;
+  border-radius:5px;
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+  background: linear-gradient(135deg,#896eb1, #B07DFB);
+  align-self: start;
+}
+
+.citacao p{
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+.atributos li {
+  color: white;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.atributos li+ li {
+  border-top: 2px solid #B07DFB;
 }
 
 /* Anuncios */
