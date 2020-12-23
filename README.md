@@ -5,31 +5,31 @@
 
 ![](./img/view-1.jpg)
 
-The website has 3 breakpoints, there are a breakpoint in 760px, 600px e 1200px.
+The website has 3 breakpoints, there are breakpoints in 760px, 600px e 1200px.
 
 This website adapts its contents according with your screen size.
 
-## Breakpoint of 1200px
-It is a overview from an Ipad Pro that has 1024x1366px.
+## 1200px Breakpoint
+This an overview from an Ipad Pro that has 1024x1366px.
 
 ![](./img/view-4.jpg)
 
-### Breakpoint of 760px
-Overview with 760x1024px, i have used the responsible tool of browser to see and screenshot it.
+### 760px Breakpoint
+Overview with 760x1024px, i used the responsible tool of browser to see and screenshot it.
 
 ![](./img/view-5.jpg)
 
-### Breakpoint of 600px
+### 600px Breakpoint
 It is a overview from a Surface Duo that has 540x720px.
 
 ![](./img/view-2.jpg) ![](./img/view-3.jpg)
 
-## What more that website has ?
-Good question. This website count with information about average age, weight, family and emergence.
+## What more the website has to offer ?
+Good question. This website counts with information about average age, weight, family and emergence.
 
 ![](./img/view-6.jpg)
 
-## How can i run that website?
+## How can I run this website?
 
 ```
 - Download this repository or clone it
